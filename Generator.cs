@@ -39,7 +39,7 @@ namespace RandomVkGroupApp
         public void Generate()
         {
             var groupId = new Random().Next(999999).ToString();
-            Console.WriteLine(TryGetGroupName(groupId) + " (https://vk.com/club" + groupId + ")");
+            Console.WriteLine(TryGetGroupName(groupId) + " | https://vk.com/club" + groupId);
         }
 
         private string TryGetGroupName(string groupId)
